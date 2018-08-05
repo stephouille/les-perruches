@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  color: #252323;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 14rem;
+  background-image: url('countryside.jpg');
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.App-intro h2 {
+
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 70rem;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
