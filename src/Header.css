@@ -3,6 +3,11 @@
   background-color: #F5F1ED;
   padding: 0.6rem 2rem;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
 }
 
 .Header-title {
@@ -18,4 +23,19 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.Header-nav a {
+  margin: 0 1rem;
+  color: #3c3c3c;
+}
+
+.Header-nav a:hover {
+  color: #000;
+}
+
+@media (max-width: 640px) {
+  .Header-nav {
+    display: none;
+  }
 }

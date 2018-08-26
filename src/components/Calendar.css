@@ -4,3 +4,21 @@
   align-items: center;
   margin: 3rem 0;
 }
+
+.App-Calendar__infos {
+  font-size: 0.9rem;
+  margin: 0.6rem 0;
+  text-align: center;
+}
+
+.App-Calendar__infos a {
+  text-decoration: underline;
+}
+
+.DateRangePicker__Date {
+  cursor: default;
+}
+
+.DateRangePicker__LegendItem:first-child {
+  display: none;
+}

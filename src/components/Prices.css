@@ -1,0 +1,64 @@
+.App-Prices {
+  max-width: 50rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-Prices__subtitle {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.App-Prices__table {
+  border: 1px solid #a0a0a0;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.App-Prices__table th {
+  border: 1px solid #a0a0a0;
+  border-collapse: collapse;
+  padding: 0.6rem;
+  background-color: #f3f3f3;
+}
+
+.App-Prices__table-titles--small {
+  display: none;
+}
+
+.App-Prices__table td {
+  border: 1px solid #a0a0a0;
+  border-collapse: collapse;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.App-Prices__table td:first-child {
+  /* width: 15rem; */
+  text-align: left;
+}
+
+.App-Prices__table td:first-child span {
+  display: block;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #8a8a8a;
+  margin-top: 0.2rem;
+}
+
+
+@media (max-width: 640px) {
+  .App-Prices__table-titles {
+    display: none;
+  }
+
+  .App-Prices__table-titles--small {
+    display: table-row;
+  }
+
+  .App-Prices__table td {
+    font-size: 0.9rem;
+  }
+}
